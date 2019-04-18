@@ -5,6 +5,13 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+/**
+ * Nama: Arman Nugraha
+ * Nim: 10116916
+ * Kelas: AKB 14K
+ * Created_at: 18-04-2019
+ */
+
 public class UserHome extends AppCompatActivity {
 
     @Override

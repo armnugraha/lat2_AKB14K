@@ -5,85 +5,96 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#40B4E7"
-    android:padding="30dp"
     tools:context=".VerifyAccount">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Verify your account"
+        android:text="Verify your Account"
         android:layout_marginBottom="25dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
         android:layout_above="@+id/greeting"
-        android:textColor="#FFF"
+        android:textSize="32dp"
+        android:textColor="@color/color_white"
+        android:textStyle="normal"
         />
 
     <TextView
         android:id="@+id/greeting"
-        android:textColor="#FFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
+        android:text="We have send verification code to your email"
+        android:layout_centerVertical="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="60dp"
-        android:paddingStart="40dp"
-        android:paddingEnd="40dp"
-        android:text="We have send verification code to your email"
-        android:textAlignment="center" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:imeOptions="actionDone"
-        android:singleLine="true"
-        android:textSize="16dp"
-        android:inputType="textPersonName"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingStart="53dp"
+        android:paddingEnd="53dp"
         android:textAlignment="center"
         android:layout_above="@+id/button4"
-        android:hint="Enter verification code here.."
-        android:layout_marginBottom="20dp" />
+        android:textColor="@color/color_white"/>
 
-    <!--<Button-->
-        <!--android:id="@+id/button4"-->
-        <!--android:background="@drawable/btn_white_default"-->
-        <!--android:textColor="@drawable/btn_white_default"-->
-        <!--android:layout_width="fill_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_centerInParent="true"-->
-        <!--android:layout_marginLeft="0dp"-->
-        <!--android:layout_marginBottom="0dp"-->
-        <!--android:layout_marginRight="0dp"-->
-        <!--android:text="Send"-->
-        <!--android:onClick="onClickSendVerifyToken"/>-->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Send"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/color_white"
+        android:background="@drawable/btn_transparent"
+        android:onClick="onClickUser"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@+id/button4"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="260dp"
         android:gravity="center"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:orientation="horizontal">
         <TextView
             android:id="@+id/asa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Doesn't get the code ?"
+            android:text="dosen't get the code?"
             android:textAlignment="center"
-            android:textColor="#FFF"
-            android:layout_margin="20dp"/>
-        <Button
+            android:textColor="@color/color_white"/>
+        <TextView
             android:id="@+id/buttonaxa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Resend"
             android:padding="0dp"
-            android:layout_marginStart="-25dip"
-            android:textAllCaps="false"/>
+            android:layout_marginStart="4dip"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:textStyle="bold"
+            />
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greeting"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="-50dp"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/color_white"
+        android:ems="23"
+        android:inputType="textPersonName"
+        android:hint="enter verification code here .."
+        android:textColorHint="@color/color_white"/>
 
 </RelativeLayout>

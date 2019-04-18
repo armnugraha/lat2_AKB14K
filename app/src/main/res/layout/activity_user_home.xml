@@ -18,7 +18,7 @@
             android:background="@mipmap/ic_header_profile" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="106dp"
             android:background="#FFF"
             android:orientation="vertical"
             android:layout_alignParentBottom="true"
@@ -44,7 +44,7 @@
         <com.github.abdularis.civ.CircleImageView
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:src="@mipmap/ic_photo_prof"
+            android:src="@mipmap/ic_photo_prof2"
             app:strokeColor="@color/color_white"
             app:strokeWidth="6dp"
             android:layout_alignParentTop="true"
