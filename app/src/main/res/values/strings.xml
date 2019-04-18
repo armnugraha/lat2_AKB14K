@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bloodshare</string>
+
+    <string name="username">Username</string>
+    <string name="psw">Password</string>
+    <string name="lgn">Login</string>
+    <string name="or">OR</string>
+    <string name="cnct_fb">Connect With Facebook</string>
+    <string name="dsnt">dosent have account?</string>
+    <string name="reg">Register</string>
+</resources>
